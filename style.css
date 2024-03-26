@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+body {
+    font-family: "Ubuntu Mono", monospace;
+}
+
+h1 {
+    text-align: center;
+}
+
+#map{
+    width: 100%;
+    height: 700px;
+    background-color: #85deff;
+}
+[class*="copyrights-pane"] {
+    display: none !important;
+  }
+
+.manage{
+    display: flex;
+    align-items: center;
+}
+.count button{
+    height: 40px;
+    width: 155px;
+    border: none;
+    background: #85deff;
+    border-radius: 100px;
+    font-size: 0.9em;
+    transition: all 0.2s;
+}
+.count button:hover{
+    background: #8593ff;
+}
+
+.info{
+    margin: 20px 0;
+}
+.info >div{
+    margin: 2px 0 3px 0;
+}
